@@ -16,10 +16,10 @@ public class FruitMaker_R : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.fixedTime - zikan1 > 1f)
+        if (Time.fixedTime - zikan1 > 2f)
         {
             frtnum = Random.Range(0, 7);
-            Instantiate(frt[frtnum], new Vector3(1f, 0f, 5f), Quaternion.identity);
+            Instantiate(frt[frtnum], new Vector3(0.7f, 0f, 5f), Quaternion.identity);
             zikan1 = Time.fixedTime;
         }
     }
