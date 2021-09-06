@@ -1,0 +1,256 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rikoshiomoto/Documents/GitHub/Demo002/DemoGame002
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49577
+Successfully changed project path to: /Users/rikoshiomoto/Documents/GitHub/Demo002/DemoGame002
+/Users/rikoshiomoto/Documents/GitHub/Demo002/DemoGame002
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 92.74 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 18.67 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rikoshiomoto/Documents/GitHub/Demo002/DemoGame002/Assets
+GfxDevice: creating device client; threaded=0
+2021-09-06 23:02:36.138 Unity[1118:13986] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-09-06 23:02:36.138 Unity[1118:13986] Metal devices available: 1
+2021-09-06 23:02:36.138 Unity[1118:13986] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-09-06 23:02:36.139 Unity[1118:13986] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56118
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005366 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 54.09 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.281 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.615 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
+Unloading 2072 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.7 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2486.
+Total: 2.711875 ms (FindLiveObjects: 0.240278 ms CreateObjectMapping: 0.087326 ms MarkObjects: 2.012857 ms  DeleteObjects: 0.370542 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Juu.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Juu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532704a4b59447b2b2f2f297946248a4') in 0.020882 seconds
+  Import took 0.025351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 873.424233 seconds.
+  path: Assets/Scenes/Get.unity
+  artifactKey: Guid(c0b5c5efcf7d74bcba36b80657cf2327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Get.unity using Guid(c0b5c5efcf7d74bcba36b80657cf2327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312a256d588bf5b0f012a1b4d5c21a7d') in 0.002912 seconds
+  Import took 0.009605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.026460 seconds.
+  path: Assets/Scenes/Juu 1.unity
+  artifactKey: Guid(f8ef259e95e3f45a08a07c4ca3716977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Juu 1.unity using Guid(f8ef259e95e3f45a08a07c4ca3716977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef60e7b6680dfacaeb3f15932457c52') in 0.002625 seconds
+  Import took 0.007716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.700384 seconds.
+  path: Assets/Scenes/Juu 2.unity
+  artifactKey: Guid(e88cf0dff155947fa9ca6e6a0fe44ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Juu 2.unity using Guid(e88cf0dff155947fa9ca6e6a0fe44ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32032dcbfe63bbe439eb112411325d76') in 0.002284 seconds
+  Import took 0.009560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.747148 seconds.
+  path: Assets/Scenes/Juu 3.unity
+  artifactKey: Guid(fb1b4d7fbb4d6420fa5f51e2f129f78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Juu 3.unity using Guid(fb1b4d7fbb4d6420fa5f51e2f129f78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a191aef8c29604d77e44268b71322358') in 0.002190 seconds
+  Import took 0.017382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.824852 seconds.
+  path: Assets/Scenes/Get.unity
+  artifactKey: Guid(f8ef259e95e3f45a08a07c4ca3716977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Get.unity using Guid(f8ef259e95e3f45a08a07c4ca3716977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652bcee10288af2d493c17d2b3909245') in 0.001904 seconds
+  Import took 0.007398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.993879 seconds.
+  path: Assets/Scenes/Juu 4.unity
+  artifactKey: Guid(573a3cf30c39b46f9b148a6846e5fadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Juu 4.unity using Guid(573a3cf30c39b46f9b148a6846e5fadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe57866e2a97ddd124a103cc5ee4797c') in 0.002037 seconds
+  Import took 0.008698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.884480 seconds.
+  path: Assets/Scenes/Juu 5.unity
+  artifactKey: Guid(26be3df3d5c6d405eae4379110a1d261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Juu 5.unity using Guid(26be3df3d5c6d405eae4379110a1d261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604b0fd022868cc6afaa66fe01d7fe0b') in 0.001913 seconds
+  Import took 0.008190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.050538 seconds.
+  path: Assets/Scenes/GetFruit.unity
+  artifactKey: Guid(e88cf0dff155947fa9ca6e6a0fe44ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GetFruit.unity using Guid(e88cf0dff155947fa9ca6e6a0fe44ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efed3f3c60d54c0f99b13ad12d4ae05') in 0.002082 seconds
+  Import took 0.008420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 277.831208 seconds.
+  path: Assets/AddOns/Mg3D_Food
+  artifactKey: Guid(82741fd6dab2d43f69a27ddd5ec44884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/Mg3D_Food using Guid(82741fd6dab2d43f69a27ddd5ec44884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678b5245c607ada843943d390b9bc186') in 0.001516 seconds
+  Import took 0.006088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.118629 seconds.
+  path: Assets/AddOns/Mg3D_Food/Banana.fbx
+  artifactKey: Guid(461f0170c82b53340a9812199b63bbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/Mg3D_Food/Banana.fbx using Guid(461f0170c82b53340a9812199b63bbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf13344d221d8f20c99abd8ce7f844f') in 2.712057 seconds
+  Import took 2.717462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/AddOns/Mg3D_Food/Watermelon.fbx
+  artifactKey: Guid(7977e423937da9b48aac1866c67bb5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/Mg3D_Food/Watermelon.fbx using Guid(7977e423937da9b48aac1866c67bb5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2178cf764de2fb9723340e1cbdb70893') in 0.064703 seconds
+  Import took 0.069623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/AddOns/Mg3D_Food/Hamburger.fbx
+  artifactKey: Guid(54b107e50acd7e24b96d7de887c68833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/Mg3D_Food/Hamburger.fbx using Guid(54b107e50acd7e24b96d7de887c68833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f752c33558051daa72702dd840862329') in 0.076353 seconds
+  Import took 0.082785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/AddOns/Mg3D_Food/Cherry.fbx
+  artifactKey: Guid(da4eeef492c0d1842963d6576330682d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/Mg3D_Food/Cherry.fbx using Guid(da4eeef492c0d1842963d6576330682d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f54cb768e6a523a393c7cde37eb1ca') in 0.038501 seconds
+  Import took 0.043228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/AddOns/Mg3D_Food/Cheese.fbx
+  artifactKey: Guid(47365cc78e5cfad41badc534e3d2b7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/Mg3D_Food/Cheese.fbx using Guid(47365cc78e5cfad41badc534e3d2b7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08578c6098b0a0812155851b8d8c263') in 0.040094 seconds
+  Import took 0.045598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/AddOns/Mg3D_Food/Olive.fbx
+  artifactKey: Guid(bd232805ec57aa245a81c2df3f69f66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/Mg3D_Food/Olive.fbx using Guid(bd232805ec57aa245a81c2df3f69f66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55641c8ebc9458705d27d986e74413d') in 0.031878 seconds
+  Import took 0.036770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/AddOns/Mg3D_Food/Hotdog.fbx
+  artifactKey: Guid(fdc7d8dffa381b54cb7740b8761d54c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/Mg3D_Food/Hotdog.fbx using Guid(fdc7d8dffa381b54cb7740b8761d54c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed241064868704f5adba9c57758bae57') in 0.143518 seconds
+  Import took 0.148671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 699.185785 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(ed88faf1877f04f00873703ef21536d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(ed88faf1877f04f00873703ef21536d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2289ad9f7f8a04ed2349d993914b0b69') in 0.399032 seconds
+  Import took 0.404551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 311.415933 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(eaa932cd3c9bd4a6ab19041c2a675574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(eaa932cd3c9bd4a6ab19041c2a675574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587d52e8a5979fdbac46596f13139290') in 0.002069 seconds
+  Import took 0.007664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.902250 seconds.
+  path: Assets/Scripts/Ugoki_F.cs
+  artifactKey: Guid(de596878279f24aa6b578bd5a69bae75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ugoki_F.cs using Guid(de596878279f24aa6b578bd5a69bae75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb777ce5dbbd26994572a804443df496') in 1.349992 seconds
+  Import took 1.360507 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.053191 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.88 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.1 MB.
+System memory in use after: 191.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2534.
+Total: 2.556225 ms (FindLiveObjects: 0.261339 ms CreateObjectMapping: 0.092269 ms MarkObjects: 1.865138 ms  DeleteObjects: 0.336713 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
