@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GetFruit.unity
+    guid: e88cf0dff155947fa9ca6e6a0fe44ce4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 79849b69184304016ad965169d1d28f2, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ed88faf1877f04f00873703ef21536d4, type: 2}
