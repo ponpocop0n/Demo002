@@ -129,3 +129,208 @@ System memory in use after: 168.5 MB.
 Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2506.
 Total: 2.762550 ms (FindLiveObjects: 0.201739 ms CreateObjectMapping: 0.070181 ms MarkObjects: 2.125502 ms  DeleteObjects: 0.364146 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.87 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.78 ms.
+Unloading 2014 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.9 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2510.
+Total: 2.794831 ms (FindLiveObjects: 0.310688 ms CreateObjectMapping: 0.112455 ms MarkObjects: 1.961719 ms  DeleteObjects: 0.409110 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 135.82 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.48 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.1 MB.
+System memory in use after: 168.9 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2510.
+Total: 21.166439 ms (FindLiveObjects: 0.791909 ms CreateObjectMapping: 0.097715 ms MarkObjects: 19.809640 ms  DeleteObjects: 0.465732 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7605.386198 seconds.
+  path: Assets/Prefabs/DefaultCanvas.prefab
+  artifactKey: Guid(a321583ed93a641a38241ad8b00aa759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DefaultCanvas.prefab using Guid(a321583ed93a641a38241ad8b00aa759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9902e0032e20945aafd18c86943e91') in 0.184017 seconds
+  Import took 0.222614 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 348.58 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.39 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.9 MB.
+System memory in use after: 169.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 16.622923 ms (FindLiveObjects: 0.448282 ms CreateObjectMapping: 0.117388 ms MarkObjects: 15.211400 ms  DeleteObjects: 0.844015 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 96.46 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.39 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.0 MB.
+System memory in use after: 169.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 27.778405 ms (FindLiveObjects: 1.225577 ms CreateObjectMapping: 0.192250 ms MarkObjects: 25.865323 ms  DeleteObjects: 0.493633 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 102.04 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.80 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.0 MB.
+System memory in use after: 169.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 4.824942 ms (FindLiveObjects: 0.406276 ms CreateObjectMapping: 0.127118 ms MarkObjects: 3.822712 ms  DeleteObjects: 0.467265 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 18.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.0 MB.
+System memory in use after: 169.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 3.127499 ms (FindLiveObjects: 0.209724 ms CreateObjectMapping: 0.076061 ms MarkObjects: 2.365918 ms  DeleteObjects: 0.475022 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 63.05 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.17 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.0 MB.
+System memory in use after: 169.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 24.517714 ms (FindLiveObjects: 0.791114 ms CreateObjectMapping: 0.131867 ms MarkObjects: 22.938462 ms  DeleteObjects: 0.654340 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.538 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Unloading 2014 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.4 MB.
+System memory in use after: 208.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2516.
+Total: 3.167466 ms (FindLiveObjects: 0.465488 ms CreateObjectMapping: 0.131536 ms MarkObjects: 2.020596 ms  DeleteObjects: 0.548844 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.81 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.883 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.67 ms.
+Unloading 2014 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 208.4 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2520.
+Total: 3.110160 ms (FindLiveObjects: 0.351995 ms CreateObjectMapping: 0.098731 ms MarkObjects: 2.141109 ms  DeleteObjects: 0.517239 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.94 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.153 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Unloading 2014 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.8 MB.
+System memory in use after: 208.5 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2524.
+Total: 2.928811 ms (FindLiveObjects: 0.302568 ms CreateObjectMapping: 0.098669 ms MarkObjects: 2.055247 ms  DeleteObjects: 0.471363 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.82 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.809 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+Unloading 2014 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.0 MB.
+System memory in use after: 208.8 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2528.
+Total: 4.120914 ms (FindLiveObjects: 0.288966 ms CreateObjectMapping: 0.081435 ms MarkObjects: 3.292891 ms  DeleteObjects: 0.456482 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
