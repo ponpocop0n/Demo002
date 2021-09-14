@@ -4,23 +4,33 @@ using UnityEngine;
 
 public class FruitMaker_R : MonoBehaviour
 {
-    float zikan1;
+    float zikan;
     public GameObject[] frt;
     int frtnum;
+    int flg;
     // Start is called before the first frame update
     void Start()
     {
-        zikan1 = 0f;
+        flg = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Time.fixedTime - zikan1 > 2f)
+        if (Time.fixedTime - zikan > 1f)
         {
-            frtnum = Random.Range(0, 7);
-            Instantiate(frt[frtnum], new Vector3(0.5f, 0f, 5f), Quaternion.identity);
-            zikan1 = Time.fixedTime;
+            if (flg % 2 == 0)
+            {
+                frtnum = 7;
+            }
+
+            if (flg % 2 == 1)
+            {  
+                frtnum = Random.Range(0, 7);
+            }
+            Instantiate(frt[frtnum], new Vector3(-0.3f, 0f, 50f), Quaternion.identity);
+            zikan = Time.fixedTime;
+            flg += 1;
         }
     }
 }

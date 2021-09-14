@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Ugoki_ConL : MonoBehaviour
 {
     public AudioSource audio;
-    public AudioClip koukaon;
-    public int point;
+    public AudioClip koukaon_1;
+    public AudioClip koukaon_2;
+    public Text text;
+    int score;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class Ugoki_ConL : MonoBehaviour
         {
             OVRInput.SetControllerVibration(0f, 0f, OVRInput.Controller.LTouch);
         }
+        text.text = "左コントローラ角度" + gameObject.transform.localEulerAngles.y.ToString();
 
     }
     void OnTriggerEnter(Collider col)
@@ -32,8 +35,14 @@ public class Ugoki_ConL : MonoBehaviour
         if (col.CompareTag("fruit"))
         {
             OVRInput.SetControllerVibration(0f, 1f, OVRInput.Controller.LTouch);
-            audio.PlayOneShot(koukaon);
-            point += 1;
+            audio.PlayOneShot(koukaon_1);
+            score = Ugoki_ConR.getScore()+2;
+        }
+        if (col.CompareTag("bomb"))
+        {
+            OVRInput.SetControllerVibration(0f, 1f, OVRInput.Controller.LTouch);
+            audio.PlayOneShot(koukaon_2);
+            score = Ugoki_ConR.getScore()-1;
         }
     }
     void OnTriggerExit(Collider col)
@@ -43,4 +52,5 @@ public class Ugoki_ConL : MonoBehaviour
             OVRInput.SetControllerVibration(0f, 0f, OVRInput.Controller.LTouch);
         }
     }
+   
 }

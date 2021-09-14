@@ -7,20 +7,30 @@ public class FruitMaker_L : MonoBehaviour
     float zikan;
     public GameObject[] frt;
     int frtnum;
+    int flg;
     // Start is called before the first frame update
     void Start()
     {
-        zikan = 1f;
+        flg = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Time.fixedTime - zikan > 5f)
+        if (Time.fixedTime - zikan > 1f)
         {
-            frtnum = Random.Range(0, 7);
-            Instantiate(frt[frtnum], new Vector3(-0.5f, 0f, 5f), Quaternion.identity);
+            if(flg % 2 == 0)
+            {
+                frtnum = Random.Range(0, 7);
+            }
+            
+            if (flg % 2 == 1)
+            {
+                frtnum = 7;  
+            }
+            Instantiate(frt[frtnum], new Vector3(0.3f, 0f, 50f), Quaternion.identity);
             zikan = Time.fixedTime;
+            flg += 1;
         }
     }
 }
