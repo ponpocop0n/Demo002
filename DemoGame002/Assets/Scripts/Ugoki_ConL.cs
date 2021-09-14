@@ -5,7 +5,8 @@ using UnityEngine;
 public class Ugoki_ConL : MonoBehaviour
 {
     public AudioSource audio;
-    public AudioClip koukaon;
+    public AudioClip koukaon_1;
+    public AudioClip koukaon_2;
     public int point;
     // Start is called before the first frame update
     void Start()
@@ -32,8 +33,12 @@ public class Ugoki_ConL : MonoBehaviour
         if (col.CompareTag("fruit"))
         {
             OVRInput.SetControllerVibration(0f, 1f, OVRInput.Controller.LTouch);
-            audio.PlayOneShot(koukaon);
-            point += 1;
+            audio.PlayOneShot(koukaon_1);
+        }
+        if (col.CompareTag("bomb"))
+        {
+            OVRInput.SetControllerVibration(0f, 1f, OVRInput.Controller.LTouch);
+            audio.PlayOneShot(koukaon_2);
         }
     }
     void OnTriggerExit(Collider col)
