@@ -92,3 +92,40 @@ System memory in use after: 169.4 MB.
 Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2502.
 Total: 3.209058 ms (FindLiveObjects: 0.230453 ms CreateObjectMapping: 0.085399 ms MarkObjects: 2.509219 ms  DeleteObjects: 0.383223 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.75 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.041 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Unloading 2014 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.4 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2506.
+Total: 3.078622 ms (FindLiveObjects: 0.300981 ms CreateObjectMapping: 0.101612 ms MarkObjects: 2.237262 ms  DeleteObjects: 0.437633 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 15.82 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.7 MB.
+System memory in use after: 168.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2506.
+Total: 2.762550 ms (FindLiveObjects: 0.201739 ms CreateObjectMapping: 0.070181 ms MarkObjects: 2.125502 ms  DeleteObjects: 0.364146 ms)
+
