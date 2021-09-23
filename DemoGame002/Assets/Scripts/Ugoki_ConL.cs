@@ -11,6 +11,9 @@ public class Ugoki_ConL : MonoBehaviour
     public static int score;
     int score_L;
     public AudioClip sound;
+
+    public object GetFruit { get; private set; }
+
     // Start is called before the first frame update
     void Start()
     {
