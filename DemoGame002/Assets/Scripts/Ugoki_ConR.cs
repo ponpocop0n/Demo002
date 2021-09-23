@@ -7,10 +7,7 @@ public class Ugoki_ConR : MonoBehaviour
     public AudioSource audio;
     public AudioClip koukaon_1;
     public AudioClip koukaon_2;
-    public Text text;
-    public Text scoreText;
-    public static int score;
-    public int s;
+    public static int score_R;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,8 +27,8 @@ public class Ugoki_ConR : MonoBehaviour
             OVRInput.SetControllerVibration(0f, 0f, OVRInput.Controller.RTouch);
         }
         */
-        text.text = "右コントローラ角度" + gameObject.transform.localEulerAngles.y.ToString();
-        scoreText.text = "スコア" + score.ToString();
+        //text.text = "右コントローラ角度" + gameObject.transform.localEulerAngles.y.ToString();
+        
     }
     void OnTriggerEnter(Collider col)
     {
@@ -39,13 +36,13 @@ public class Ugoki_ConR : MonoBehaviour
         {
             OVRInput.SetControllerVibration(0f, 1f, OVRInput.Controller.RTouch);
             audio.PlayOneShot(koukaon_1);
-            score += 2;
+            score_R += 2;
         }
         if (col.CompareTag("bomb"))
         {
             OVRInput.SetControllerVibration(0f, 1f, OVRInput.Controller.RTouch);
             audio.PlayOneShot(koukaon_2);
-            score -= 1;
+            score_R -= 1;
         }
     }
     void OnTriggerExit(Collider col)
@@ -56,8 +53,8 @@ public class Ugoki_ConR : MonoBehaviour
         }
     }
     public static int getScore()
-    {
-        return score;
+    { 
+        return score_R;
     }
     
 }
