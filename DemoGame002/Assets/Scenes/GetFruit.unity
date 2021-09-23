@@ -800,6 +800,8 @@ MonoBehaviour:
   audio: {fileID: 1373449979}
   koukaon_1: {fileID: 8300000, guid: a4b79d58a09344d3c9f22ec00e16801b, type: 3}
   koukaon_2: {fileID: 8300000, guid: 015b3ee5f89614699905d1e26e45444a, type: 3}
+  ganimata: {fileID: 8300000, guid: 0716ee39f6d404772a578c46e4f4a449, type: 3}
+  hiraki: 0
 --- !u!82 &1048883339
 AudioSource:
   m_ObjectHideFlags: 0

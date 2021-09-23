@@ -7,7 +7,7 @@ public class Angle_Con : MonoBehaviour
 
     public Transform front_L, front_R, back_L, back_R;
     Vector3 hiraki_v1, hiraki_v2;
-    float hiraki;
+    public static float hiraki;
     public Text hiraki_T;
     // Start is called before the first frame update
     void Start()
@@ -29,5 +29,9 @@ public class Angle_Con : MonoBehaviour
             hiraki_T.text = "正常に読み取れません。";
         }
        
+    }
+    public static float getHiraki()
+    {
+        return hiraki;
     }
 }

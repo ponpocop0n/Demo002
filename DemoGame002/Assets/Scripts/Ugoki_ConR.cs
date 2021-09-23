@@ -7,7 +7,9 @@ public class Ugoki_ConR : MonoBehaviour
     public AudioSource audio;
     public AudioClip koukaon_1;
     public AudioClip koukaon_2;
+    public AudioClip ganimata;
     public static int score_R;
+    public float hiraki;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,15 +30,24 @@ public class Ugoki_ConR : MonoBehaviour
         }
         */
         //text.text = "右コントローラ角度" + gameObject.transform.localEulerAngles.y.ToString();
+        hiraki = Angle_Con.getHiraki();
         
     }
     void OnTriggerEnter(Collider col)
     {
-        if (col.CompareTag("fruit"))
+        if (col.CompareTag("fruit") )
         {
-            OVRInput.SetControllerVibration(0f, 1f, OVRInput.Controller.RTouch);
-            audio.PlayOneShot(koukaon_1);
-            score_R += 2;
+            if(hiraki < 40) {
+                OVRInput.SetControllerVibration(0f, 1f, OVRInput.Controller.RTouch);
+                audio.PlayOneShot(koukaon_1);
+                score_R += 2;
+            }
+            else
+            {
+                audio.PlayOneShot(ganimata);
+                score_R -= 2;
+            }
+            
         }
         if (col.CompareTag("bomb"))
         {
